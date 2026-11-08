@@ -1,0 +1,47 @@
+{
+  "note": "Planted patterns affect the step_4 -> step_5 transition.",
+  "planted": [
+    {
+      "dimension": "platform",
+      "value": "iOS Safari"
+    },
+    {
+      "dimension": "email_error",
+      "value": "domain_typo"
+    },
+    {
+      "dimension": "ad_id",
+      "value": "ad_07"
+    },
+    {
+      "dimension": "time_on_step_sec",
+      "value": "40+"
+    }
+  ],
+  "traps_no_effect": [
+    {
+      "dimension": "country",
+      "value": "CA"
+    },
+    {
+      "dimension": "country",
+      "value": "GB"
+    },
+    {
+      "dimension": "country",
+      "value": "AU"
+    },
+    {
+      "dimension": "ad_id",
+      "value": "ad_03"
+    },
+    {
+      "dimension": "ad_id",
+      "value": "ad_09"
+    }
+  ],
+  "small_segment_below_threshold": {
+    "dimension": "ad_id",
+    "value": "ad_12"
+  }
+}
